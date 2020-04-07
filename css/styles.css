@@ -1,0 +1,158 @@
+body{
+font-family:'Ubuntu', cursive;
+}
+
+h1{
+  font-family: 'Patrick Hand', cursive;
+  font-size: 3rem;
+  line-height: 1.5;
+  word-spacing: 15px;
+  color: white;
+}
+
+.navbar{
+  padding: 0 0 80px;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.4rem;
+}
+
+.topbuttons{
+  margin: 3rem 2.5rem 3rem 0;
+
+}
+
+.container-fluid{
+  padding: 3% 10%;
+}
+
+.iphone11{
+  padding-left: 5rem;
+  transform: rotate(35deg);
+  width: 350px;
+  position: absolute;
+  right: 30%;
+}
+
+#title{
+  background-color: #a6b4d8;
+}
+
+.navbar-brand{
+  font-size: 3rem;
+  font-family: 'Fredoka One', cursive;
+}
+
+.fas{
+  color: #F5731F;
+  padding: 40px 10px;
+}
+
+.fas:hover{
+  color: #FC1207;
+}
+
+.features-box{
+  text-align: center;
+}
+
+h3{
+  font-family: 'Roboto', sans-serif;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+h2{
+  font-family:'Josefin Sans', sans-serif;
+  font-size: 3rem;
+}
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+
+/* testimonials section */
+#testimonials{
+  padding: 2% 0%;
+  background-color: #a6b4d8;
+  text-align: center;
+  color: #fff;
+}
+
+.image_1{
+  border-radius: 50%;
+  width: 400px;
+  padding: 3rem 0;
+}
+
+#press{
+  background-color: #a6b4d8;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.brands{
+  width: 200px;
+  margin: 1rem 3rem 2rem 3rem;
+
+}
+.slidetext{
+margin: 0 100px;
+}
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricebox{
+  padding: 3% 2%;
+}
+
+
+@media (max-width: 991px){
+   h1{
+     text-align: center;
+   }
+   .iphone11{
+     position: static;
+     transform: rotate(0);
+   }
+}
+
+#cta{
+  background-color: #a6b4d8;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+.copyright{
+  padding: 1% 0 0;
+}
+
+.bottombtn{
+margin: 20px 10px 20px;
+}
+.downloadtext{
+padding: 20px 0 0;
+}
+
+.lastsection{
+  text-align: center;
+  padding: 2rem 0 0;
+}
+
+.contacticons{
+  padding: 0 1rem;
+}
